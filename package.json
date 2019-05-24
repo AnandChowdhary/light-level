@@ -1,5 +1,5 @@
 {
-  "name": "light-level",
+  "name": "light-level-css",
   "version": "1.0.0",
   "description": "Get a user's light level preference using CSS @media light-level",
   "main": "dist/index.js",
