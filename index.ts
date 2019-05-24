@@ -11,14 +11,19 @@ export default (fallbackToNone: Boolean = true) => {
     html {
         content: "";
     }
-    @media (prefers-reduced-motion: reduce) {
+    @media (light-level: dim) {
       html {
-        content: "reduce";
+        content: "dim";
       }
     }
-    @media (prefers-reduced-motion: no-preference) {
+    @media (light-level: washed) {
       html {
-        content: "no-preference";
+        content: "washed";
+      }
+    }
+    @media (light-level: normal) {
+      html {
+        content: "normal";
       }
     }
   `;
@@ -35,7 +40,7 @@ export default (fallbackToNone: Boolean = true) => {
   const value =
     getComputedStyle(document.documentElement)
       .getPropertyValue("content")
-      .replace(/"/g, "") || (fallbackToNone ? "no-preference" : "unknown");
+      .replace(/"/g, "") || (fallbackToNone ? "normal" : "unknown");
 
   // Remove appended items from the DOM
   if (testElement.parentNode) {

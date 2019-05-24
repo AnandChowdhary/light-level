@@ -1,14 +1,14 @@
 {
-  "name": "prefers-reduced-motion",
+  "name": "light-level",
   "version": "1.0.0",
-  "description": "Get a user's motion preference using CSS @media prefers-reduced-motion",
+  "description": "Get a user's light level preference using CSS @media light-level",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:AnandChowdhary/prefers-reduced-motion.git",
+  "repository": "git@github.com:AnandChowdhary/light-level.git",
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "scripts": {

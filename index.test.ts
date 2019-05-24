@@ -1,13 +1,13 @@
-import prefersReducedMotion from "./index";
+import lightLevel from "./index";
 
 test("should be a string", () => {
-  expect(typeof prefersReducedMotion()).toBe("string");
+  expect(typeof lightLevel()).toBe("string");
 });
 
-test("should be reduce or no-preference", () => {
-  expect(["reduce", "no-preference"].includes(prefersReducedMotion())).toBeTruthy();
+test("should be dim or no-preference", () => {
+  expect(["dim", "washed", "no-preference"].includes(lightLevel())).toBeTruthy();
 });
 
-test("should be reduce, no-preference, or unknown", () => {
-  expect(["reduce", "no-preference", "unknown"].includes(prefersReducedMotion())).toBeTruthy();
+test("should be dim, no-preference, or unknown", () => {
+  expect(["dim", "washed", "no-preference", "unknown"].includes(lightLevel())).toBeTruthy();
 });
