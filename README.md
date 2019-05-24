@@ -5,10 +5,10 @@
 [![GitHub](https://img.shields.io/github/license/anandchowdhary/light-level.svg)](https://github.com/AnandChowdhary/light-level/blob/master/LICENSE)
 ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AnandChowdhary/light-level.svg)
 ![NPM type definitions](https://img.shields.io/npm/types/light-level-css.svg)
-[![NPM](https://img.shields.io/npm/v/light-level.svg)](https://www.npmjs.com/package/light-level-css)
-[![Minzipped size](https://img.shields.io/bundlephobia/minzip/light-level.svg)](https://www.npmjs.com/package/light-level-css)
+[![NPM](https://img.shields.io/npm/v/light-level-css.svg)](https://www.npmjs.com/package/light-level-css)
+[![Minzipped size](https://img.shields.io/bundlephobia/minzip/light-level-css.svg)](https://www.npmjs.com/package/light-level-css)
 
-[![NPM](https://nodei.co/npm/light-level.png)](https://www.npmjs.com/package/light-level-css)
+[![NPM](https://nodei.co/npm/light-level-css.png)](https://www.npmjs.com/package/light-level-css)
 
 Light level is a package that tells you a user's preferred light level. It's based on the CSS `@media (light-level)`, which is part of [Media Queries Level 5](https://drafts.csswg.org/mediaqueries-5/). It's around 700 bytes minified, 300 bytes gzipped.
 
